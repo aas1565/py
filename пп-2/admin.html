@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет магазин</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="main-body">
+    <header class="page-header">
+        <div class="first-head">
+            <a href="index.html"><img class="clever" src="img/clever.png" alt="логтип магазина"></a>
+            <ul class="site-navigation">
+                <li class="site-navigation-item">
+                    <a href="admin.html">Администраторам</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href="news.html">Новости</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href="manufacturers.html">Производители</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href="goods.html">Товары</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href="#">Каталог</a>
+                </li>
+            </ul>
+            <div class="head-block">
+                <button class="man-but">
+                    <a href="entry.html"><img class="man" src="img/man.png" alt="вход для пользователя"></a>
+                </button>
+                <button class="basket-but">
+                    <img class="basket" src="img/basket.png" alt="корзина с товарами">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="account">
+            <h1>Новая новость</h1>
+            <div class="reg-2">
+                <form>
+                    <label for="name">Введите вашу новость</label>
+                    <input class="pl-4" type="text" id="новость" placeholder="Бабочка">
+                </form>
+            </div>
+            <button type="button" class="button-2" id="go"><span>Записать</span></button>
+        </section>
+        <section class="account">
+            <h1>Новый производитель</h1>
+            <div class="reg-2">
+                <form>
+                    <label for="name">Введите страну</label>
+                    <input class="pl-3"type="text" id="имя" placeholder="Америка">
+                </form>
+                <form>
+                    <label class="im" for="name">Вставьте картинку</label>
+                    <input class="pl-5" type="file" accept="image/jpeg, image/png" id="изображение">
+                </form>
+            </div>
+            <button type="button" class="button-2" id="go"><span>Записать</span></button>
+        </section>
+        <section class="account">
+            <h1>Новый товар</h1>
+            <div class="reg-2">
+                <form>
+                    <label for="name">Введите название товара</label>
+                    <input class="pl-3"type="text" id="имя" placeholder="Iphone">
+                </form>
+                <form>
+                    <label for="name">Введите описание товара</label>
+                    <input class="pl-3"type="text" id="имя" placeholder="крутой">
+                </form>
+                <form>
+                    <label for="name">Введите цену</label>
+                    <input class="pl-4" type="text" id="пароль" placeholder="1000 ₽">
+                </form>
+                <form>
+                    <label for="name">Введите тег товара</label>
+                    <input class="pl-4" type="text" id="пароль" placeholder="#Ipad">
+                </form>
+                <form>
+                    <label class="im" for="name">Вставьте картинку</label>
+                    <input class="pl-5" type="file" accept="image/jpeg, image/png" id="изображение">
+                </form>
+            </div>
+            <button type="button" class="button-2" id="go"><span>Записать</span></button>
+        </section>
+        <section class="account">
+            <h1>Новый каталог</h1>
+            <div class="reg-2">
+                <form>
+                    <label for="name">Введите название каталога</label>
+                    <input class="pl-3"type="text" id="имя" placeholder="Игрушки">
+                </form>
+                <form>
+                    <label class="im" for="name">Вставьте картинку</label>
+                    <input class="pl-5" type="file" accept="image/jpeg, image/png" id="изображение">
+                </form>
+            </div>
+            <button type="button" class="button-2" id="go"><span>Записать</span></button>
+        </section>
+    </main>
+    <footer class="main-foot">
+        <div class="footer-container">
+            <ul class="footer-navigation-topics">
+                <li class="footer-navigation-topic">
+                    <ul class="footer-navigation">
+                        <li class="footer-navigation-item">
+                            <h2>Компания</h2>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <p>О компании</p>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <p>Новости</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-navigation-topic">
+                    <ul class="footer-navigation">
+                        <li class="footer-navigation-item">
+                            <h2>Клиентам</h2>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <p>Возврат товара</p>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <p>Доставка/ оплата</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-navigation-topic">
+                    <ul class="footer-navigation">
+                        <li class="footer-navigation-item">
+                            <h2>Контакты</h2>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <p>clever.shop@gmail.com</p>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <p>© aas1565@yandex.ru</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-navigation-topic">
+                    <a href="#"><img class="a" src="./img/vk.png" alt="сервис вконтаке"></a>
+                    <a href="#"><img class="a" src="img/odn.png" alt="сервис одноклассники"></a>
+                    <a href="#"><img class="a-1" src="img/inst.png"  alt="сервис инстаграмм"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
