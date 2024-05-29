@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет магазин</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body class="main-body">
+    <header class="page-header">
+        <div class="first-head">
+            <a href="index.html"><img class="clever" src="img/clever.png" alt="логтип магазина"></a>
+            <ul class="site-navigation">
+                <li class="site-navigation-item">
+                    <a href="admin.html">Администраторам</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href="news.html">Новости</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href="manufacturers.html">Производители</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href="goods.html">Товары</a>
+                </li>
+                <li class="site-navigation-item">
+                    <a href="#">Каталог</a>
+                </li>
+            </ul>
+            <div class="head-block">
+                <button class="man-but">
+                    <a href="entry.html"><img class="man" src="img/man.png" alt="вход для пользователя"></a>
+                </button>
+                <button class="basket-but">
+                    <img class="basket" src="img/basket.png" alt="корзина с товарами">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="filter-item">
+            <h2 class="main-h">
+                <select class="filter" name="news-filter">
+                    <option value="all">Все товары</option>
+                    <option value="phone">Iphone</option>
+                    <option value="ipad">Ipad</option>
+                    <option value="notebook">Macbook</option>
+                    <option value="airpods">Airpods</option>
+                    <option value="watch">Vision</option>
+                </select>
+            </h2>
+        </div>
+        <section class="main-manufact-goods">
+            <div class="block-goods" data-category="phone">
+                <img class="iphone-15" src="img/iphone-15.png" alt="айфон 15">
+                <div class="col">
+                    <div class="g">
+                        <h3>Iphone 15</h3>
+                        <p>1</p>
+                    </div>
+                    <p>описание описание описание описание описание описание описание описание описание описание
+                        описаниеописаниеописаниеописаниеописаниеописаниеописаниеописаниеописаниеописание
+                        описаниеописаниеописание
+                    </p>
+                </div>
+                <div class="price">
+                    <h3 class="l">124 000 ₽</h3>
+                    <div class="hash-rub">
+                        <button class="rub-button-3">
+                            <img class="rub-3" src="img/rubish.png" alt="корзина">
+                        </button>
+                        <h3 class="hash-country">#Iphone</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-foot">
+        <div class="footer-container">
+            <ul class="footer-navigation-topics">
+                <li class="footer-navigation-topic">
+                    <ul class="footer-navigation">
+                        <li class="footer-navigation-item">
+                            <h2>Компания</h2>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <p>О компании</p>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <p>Новости</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-navigation-topic">
+                    <ul class="footer-navigation">
+                        <li class="footer-navigation-item">
+                            <h2>Клиентам</h2>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <p>Возврат товара</p>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <p>Доставка/ оплата</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-navigation-topic">
+                    <ul class="footer-navigation">
+                        <li class="footer-navigation-item">
+                            <h2>Контакты</h2>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <p>clever.shop@gmail.com</p>
+                        </li>
+                        <li class="footer-navigation-item">
+                            <p>© aas1565@yandex.ru</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-navigation-topic">
+                    <a href="#"><img class="a" src="./img/vk.png" alt="сервис вконтаке"></a>
+                    <a href="#"><img class="a" src="img/odn.png" alt="сервис одноклассники"></a>
+                    <a href="#"><img class="a-1" src="img/inst.png"  alt="сервис инстаграмм"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script defer src="./filter.js"></script>
+    <script defer src="./goods.js"></script>
+</body>
+</html>
